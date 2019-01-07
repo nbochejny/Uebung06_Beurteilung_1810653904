@@ -11,7 +11,7 @@ public class Aufgabe4 {
             friends.add(JOptionPane.showInputDialog("Please tell me your Friends"));
 
         for (int i = 0; i < 5; i++) {
-            System.out.print(friends.get(i).toString() + " ");
+            System.out.print(friends.get(i) + " ");
 
            }
         }
